@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC55B0D1D0A717000E4E28E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC55B0C1D0A717000E4E28E /* main.m */; };
+		CEC55B101D0A717000E4E28E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC55B0F1D0A717000E4E28E /* AppDelegate.m */; };
+		CEC55B131D0A717000E4E28E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC55B121D0A717000E4E28E /* ViewController.m */; };
+		CEC55B161D0A717000E4E28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B141D0A717000E4E28E /* Main.storyboard */; };
+		CEC55B181D0A717000E4E28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B171D0A717000E4E28E /* Assets.xcassets */; };
+		CEC55B3D1D0AB1E400E4E28E /* 关闭@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B2D1D0AB1E400E4E28E /* 关闭@2x.png */; };
+		CEC55B3E1D0AB1E400E4E28E /* 关闭@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B2E1D0AB1E400E4E28E /* 关闭@3x.png */; };
+		CEC55B3F1D0AB1E400E4E28E /* 关闭禁用@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B2F1D0AB1E400E4E28E /* 关闭禁用@2x.png */; };
+		CEC55B401D0AB1E400E4E28E /* 关闭禁用@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B301D0AB1E400E4E28E /* 关闭禁用@3x.png */; };
+		CEC55B411D0AB1E400E4E28E /* 删除@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B311D0AB1E400E4E28E /* 删除@2x.png */; };
+		CEC55B421D0AB1E400E4E28E /* 删除@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B321D0AB1E400E4E28E /* 删除@3x.png */; };
+		CEC55B431D0AB1E400E4E28E /* 删除禁用@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B331D0AB1E400E4E28E /* 删除禁用@2x.png */; };
+		CEC55B441D0AB1E400E4E28E /* 删除禁用@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B341D0AB1E400E4E28E /* 删除禁用@3x.png */; };
+		CEC55B451D0AB1E400E4E28E /* 撤销@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B351D0AB1E400E4E28E /* 撤销@2x.png */; };
+		CEC55B461D0AB1E400E4E28E /* 撤销@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B361D0AB1E400E4E28E /* 撤销@3x.png */; };
+		CEC55B471D0AB1E400E4E28E /* 撤销禁用@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B371D0AB1E400E4E28E /* 撤销禁用@2x.png */; };
+		CEC55B481D0AB1E400E4E28E /* 撤销禁用@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B381D0AB1E400E4E28E /* 撤销禁用@3x.png */; };
+		CEC55B491D0AB1E400E4E28E /* 重做@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B391D0AB1E400E4E28E /* 重做@2x.png */; };
+		CEC55B4A1D0AB1E400E4E28E /* 重做@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B3A1D0AB1E400E4E28E /* 重做@3x.png */; };
+		CEC55B4B1D0AB1E400E4E28E /* 重做禁用@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B3B1D0AB1E400E4E28E /* 重做禁用@2x.png */; };
+		CEC55B4C1D0AB1E400E4E28E /* 重做禁用@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC55B3C1D0AB1E400E4E28E /* 重做禁用@3x.png */; };
+		CEC6A6C21D0BAED60062C6DD /* LGBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6A6AB1D0BAED60062C6DD /* LGBoardView.m */; };
+		CEC6A6C31D0BAED60062C6DD /* LGColorSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6A6AD1D0BAED60062C6DD /* LGColorSelectView.m */; };
+		CEC6A6C41D0BAED60062C6DD /* LGDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6A6AF1D0BAED60062C6DD /* LGDrawer.m */; };
+		CEC6A6C51D0BAED60062C6DD /* LGPaintPath.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6A6B11D0BAED60062C6DD /* LGPaintPath.m */; };
+		CEC6A6D71D0BAF030062C6DD /* 关闭@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6C71D0BAF030062C6DD /* 关闭@2x.png */; };
+		CEC6A6D81D0BAF030062C6DD /* 关闭@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6C81D0BAF030062C6DD /* 关闭@3x.png */; };
+		CEC6A6D91D0BAF030062C6DD /* 关闭禁用@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6C91D0BAF030062C6DD /* 关闭禁用@2x.png */; };
+		CEC6A6DA1D0BAF030062C6DD /* 关闭禁用@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6CA1D0BAF030062C6DD /* 关闭禁用@3x.png */; };
+		CEC6A6DB1D0BAF030062C6DD /* 删除@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6CB1D0BAF030062C6DD /* 删除@2x.png */; };
+		CEC6A6DC1D0BAF030062C6DD /* 删除@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6CC1D0BAF030062C6DD /* 删除@3x.png */; };
+		CEC6A6DD1D0BAF030062C6DD /* 删除禁用@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6CD1D0BAF030062C6DD /* 删除禁用@2x.png */; };
+		CEC6A6DE1D0BAF030062C6DD /* 删除禁用@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6CE1D0BAF030062C6DD /* 删除禁用@3x.png */; };
+		CEC6A6DF1D0BAF030062C6DD /* 撤销@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6CF1D0BAF030062C6DD /* 撤销@2x.png */; };
+		CEC6A6E01D0BAF030062C6DD /* 撤销@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6D01D0BAF030062C6DD /* 撤销@3x.png */; };
+		CEC6A6E11D0BAF030062C6DD /* 撤销禁用@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6D11D0BAF030062C6DD /* 撤销禁用@2x.png */; };
+		CEC6A6E21D0BAF030062C6DD /* 撤销禁用@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6D21D0BAF030062C6DD /* 撤销禁用@3x.png */; };
+		CEC6A6E31D0BAF030062C6DD /* 重做@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6D31D0BAF030062C6DD /* 重做@2x.png */; };
+		CEC6A6E41D0BAF030062C6DD /* 重做@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6D41D0BAF030062C6DD /* 重做@3x.png */; };
+		CEC6A6E51D0BAF030062C6DD /* 重做禁用@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6D51D0BAF030062C6DD /* 重做禁用@2x.png */; };
+		CEC6A6E61D0BAF030062C6DD /* 重做禁用@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6A6D61D0BAF030062C6DD /* 重做禁用@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEC55B081D0A717000E4E28E /* LGDrawBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGDrawBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC55B0C1D0A717000E4E28E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC55B0E1D0A717000E4E28E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC55B0F1D0A717000E4E28E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC55B111D0A717000E4E28E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEC55B121D0A717000E4E28E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEC55B151D0A717000E4E28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEC55B171D0A717000E4E28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEC55B1C1D0A717000E4E28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC55B2D1D0AB1E400E4E28E /* 关闭@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭@2x.png"; sourceTree = "<group>"; };
+		CEC55B2E1D0AB1E400E4E28E /* 关闭@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭@3x.png"; sourceTree = "<group>"; };
+		CEC55B2F1D0AB1E400E4E28E /* 关闭禁用@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭禁用@2x.png"; sourceTree = "<group>"; };
+		CEC55B301D0AB1E400E4E28E /* 关闭禁用@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭禁用@3x.png"; sourceTree = "<group>"; };
+		CEC55B311D0AB1E400E4E28E /* 删除@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除@2x.png"; sourceTree = "<group>"; };
+		CEC55B321D0AB1E400E4E28E /* 删除@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除@3x.png"; sourceTree = "<group>"; };
+		CEC55B331D0AB1E400E4E28E /* 删除禁用@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除禁用@2x.png"; sourceTree = "<group>"; };
+		CEC55B341D0AB1E400E4E28E /* 删除禁用@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除禁用@3x.png"; sourceTree = "<group>"; };
+		CEC55B351D0AB1E400E4E28E /* 撤销@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "撤销@2x.png"; sourceTree = "<group>"; };
+		CEC55B361D0AB1E400E4E28E /* 撤销@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "撤销@3x.png"; sourceTree = "<group>"; };
+		CEC55B371D0AB1E400E4E28E /* 撤销禁用@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "撤销禁用@2x.png"; sourceTree = "<group>"; };
+		CEC55B381D0AB1E400E4E28E /* 撤销禁用@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "撤销禁用@3x.png"; sourceTree = "<group>"; };
+		CEC55B391D0AB1E400E4E28E /* 重做@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重做@2x.png"; sourceTree = "<group>"; };
+		CEC55B3A1D0AB1E400E4E28E /* 重做@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重做@3x.png"; sourceTree = "<group>"; };
+		CEC55B3B1D0AB1E400E4E28E /* 重做禁用@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重做禁用@2x.png"; sourceTree = "<group>"; };
+		CEC55B3C1D0AB1E400E4E28E /* 重做禁用@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重做禁用@3x.png"; sourceTree = "<group>"; };
+		CEC6A6AA1D0BAED60062C6DD /* LGBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBoardView.h; sourceTree = "<group>"; };
+		CEC6A6AB1D0BAED60062C6DD /* LGBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBoardView.m; sourceTree = "<group>"; };
+		CEC6A6AC1D0BAED60062C6DD /* LGColorSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGColorSelectView.h; sourceTree = "<group>"; };
+		CEC6A6AD1D0BAED60062C6DD /* LGColorSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGColorSelectView.m; sourceTree = "<group>"; };
+		CEC6A6AE1D0BAED60062C6DD /* LGDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDrawer.h; sourceTree = "<group>"; };
+		CEC6A6AF1D0BAED60062C6DD /* LGDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDrawer.m; sourceTree = "<group>"; };
+		CEC6A6B01D0BAED60062C6DD /* LGPaintPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPaintPath.h; sourceTree = "<group>"; };
+		CEC6A6B11D0BAED60062C6DD /* LGPaintPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPaintPath.m; sourceTree = "<group>"; };
+		CEC6A6C71D0BAF030062C6DD /* 关闭@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭@2x.png"; sourceTree = "<group>"; };
+		CEC6A6C81D0BAF030062C6DD /* 关闭@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭@3x.png"; sourceTree = "<group>"; };
+		CEC6A6C91D0BAF030062C6DD /* 关闭禁用@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭禁用@2x.png"; sourceTree = "<group>"; };
+		CEC6A6CA1D0BAF030062C6DD /* 关闭禁用@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭禁用@3x.png"; sourceTree = "<group>"; };
+		CEC6A6CB1D0BAF030062C6DD /* 删除@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除@2x.png"; sourceTree = "<group>"; };
+		CEC6A6CC1D0BAF030062C6DD /* 删除@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除@3x.png"; sourceTree = "<group>"; };
+		CEC6A6CD1D0BAF030062C6DD /* 删除禁用@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除禁用@2x.png"; sourceTree = "<group>"; };
+		CEC6A6CE1D0BAF030062C6DD /* 删除禁用@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除禁用@3x.png"; sourceTree = "<group>"; };
+		CEC6A6CF1D0BAF030062C6DD /* 撤销@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "撤销@2x.png"; sourceTree = "<group>"; };
+		CEC6A6D01D0BAF030062C6DD /* 撤销@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "撤销@3x.png"; sourceTree = "<group>"; };
+		CEC6A6D11D0BAF030062C6DD /* 撤销禁用@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "撤销禁用@2x.png"; sourceTree = "<group>"; };
+		CEC6A6D21D0BAF030062C6DD /* 撤销禁用@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "撤销禁用@3x.png"; sourceTree = "<group>"; };
+		CEC6A6D31D0BAF030062C6DD /* 重做@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重做@2x.png"; sourceTree = "<group>"; };
+		CEC6A6D41D0BAF030062C6DD /* 重做@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重做@3x.png"; sourceTree = "<group>"; };
+		CEC6A6D51D0BAF030062C6DD /* 重做禁用@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重做禁用@2x.png"; sourceTree = "<group>"; };
+		CEC6A6D61D0BAF030062C6DD /* 重做禁用@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重做禁用@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC55B051D0A717000E4E28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC55AFF1D0A717000E4E28E = {
+			isa = PBXGroup;
+			children = (
+				CEC55B0A1D0A717000E4E28E /* LGDrawBoard */,
+				CEC55B091D0A717000E4E28E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC55B091D0A717000E4E28E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC55B081D0A717000E4E28E /* LGDrawBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC55B0A1D0A717000E4E28E /* LGDrawBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6A6C61D0BAF030062C6DD /* image */,
+				CEC6A6981D0BAED60062C6DD /* Class */,
+				CEC55B2C1D0AB1E400E4E28E /* image */,
+				CEC55B0E1D0A717000E4E28E /* AppDelegate.h */,
+				CEC55B0F1D0A717000E4E28E /* AppDelegate.m */,
+				CEC55B111D0A717000E4E28E /* ViewController.h */,
+				CEC55B121D0A717000E4E28E /* ViewController.m */,
+				CEC55B141D0A717000E4E28E /* Main.storyboard */,
+				CEC55B171D0A717000E4E28E /* Assets.xcassets */,
+				CEC55B1C1D0A717000E4E28E /* Info.plist */,
+				CEC55B0B1D0A717000E4E28E /* Supporting Files */,
+			);
+			path = LGDrawBoard;
+			sourceTree = "<group>";
+		};
+		CEC55B0B1D0A717000E4E28E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC55B0C1D0A717000E4E28E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC55B2C1D0AB1E400E4E28E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CEC55B2D1D0AB1E400E4E28E /* 关闭@2x.png */,
+				CEC55B2E1D0AB1E400E4E28E /* 关闭@3x.png */,
+				CEC55B2F1D0AB1E400E4E28E /* 关闭禁用@2x.png */,
+				CEC55B301D0AB1E400E4E28E /* 关闭禁用@3x.png */,
+				CEC55B311D0AB1E400E4E28E /* 删除@2x.png */,
+				CEC55B321D0AB1E400E4E28E /* 删除@3x.png */,
+				CEC55B331D0AB1E400E4E28E /* 删除禁用@2x.png */,
+				CEC55B341D0AB1E400E4E28E /* 删除禁用@3x.png */,
+				CEC55B351D0AB1E400E4E28E /* 撤销@2x.png */,
+				CEC55B361D0AB1E400E4E28E /* 撤销@3x.png */,
+				CEC55B371D0AB1E400E4E28E /* 撤销禁用@2x.png */,
+				CEC55B381D0AB1E400E4E28E /* 撤销禁用@3x.png */,
+				CEC55B391D0AB1E400E4E28E /* 重做@2x.png */,
+				CEC55B3A1D0AB1E400E4E28E /* 重做@3x.png */,
+				CEC55B3B1D0AB1E400E4E28E /* 重做禁用@2x.png */,
+				CEC55B3C1D0AB1E400E4E28E /* 重做禁用@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		CEC6A6981D0BAED60062C6DD /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6A6AA1D0BAED60062C6DD /* LGBoardView.h */,
+				CEC6A6AB1D0BAED60062C6DD /* LGBoardView.m */,
+				CEC6A6AC1D0BAED60062C6DD /* LGColorSelectView.h */,
+				CEC6A6AD1D0BAED60062C6DD /* LGColorSelectView.m */,
+				CEC6A6AE1D0BAED60062C6DD /* LGDrawer.h */,
+				CEC6A6AF1D0BAED60062C6DD /* LGDrawer.m */,
+				CEC6A6B01D0BAED60062C6DD /* LGPaintPath.h */,
+				CEC6A6B11D0BAED60062C6DD /* LGPaintPath.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		CEC6A6C61D0BAF030062C6DD /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6A6C71D0BAF030062C6DD /* 关闭@2x.png */,
+				CEC6A6C81D0BAF030062C6DD /* 关闭@3x.png */,
+				CEC6A6C91D0BAF030062C6DD /* 关闭禁用@2x.png */,
+				CEC6A6CA1D0BAF030062C6DD /* 关闭禁用@3x.png */,
+				CEC6A6CB1D0BAF030062C6DD /* 删除@2x.png */,
+				CEC6A6CC1D0BAF030062C6DD /* 删除@3x.png */,
+				CEC6A6CD1D0BAF030062C6DD /* 删除禁用@2x.png */,
+				CEC6A6CE1D0BAF030062C6DD /* 删除禁用@3x.png */,
+				CEC6A6CF1D0BAF030062C6DD /* 撤销@2x.png */,
+				CEC6A6D01D0BAF030062C6DD /* 撤销@3x.png */,
+				CEC6A6D11D0BAF030062C6DD /* 撤销禁用@2x.png */,
+				CEC6A6D21D0BAF030062C6DD /* 撤销禁用@3x.png */,
+				CEC6A6D31D0BAF030062C6DD /* 重做@2x.png */,
+				CEC6A6D41D0BAF030062C6DD /* 重做@3x.png */,
+				CEC6A6D51D0BAF030062C6DD /* 重做禁用@2x.png */,
+				CEC6A6D61D0BAF030062C6DD /* 重做禁用@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC55B071D0A717000E4E28E /* LGDrawBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC55B1F1D0A717000E4E28E /* Build configuration list for PBXNativeTarget "LGDrawBoard" */;
+			buildPhases = (
+				CEC55B041D0A717000E4E28E /* Sources */,
+				CEC55B051D0A717000E4E28E /* Frameworks */,
+				CEC55B061D0A717000E4E28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGDrawBoard;
+			productName = LGDrawBoard;
+			productReference = CEC55B081D0A717000E4E28E /* LGDrawBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC55B001D0A717000E4E28E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JJ;
+				TargetAttributes = {
+					CEC55B071D0A717000E4E28E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CEC55B031D0A717000E4E28E /* Build configuration list for PBXProject "LGDrawBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = CEC55AFF1D0A717000E4E28E;
+			productRefGroup = CEC55B091D0A717000E4E28E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC55B071D0A717000E4E28E /* LGDrawBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC55B061D0A717000E4E28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC55B4C1D0AB1E400E4E28E /* 重做禁用@3x.png in Resources */,
+				CEC55B431D0AB1E400E4E28E /* 删除禁用@2x.png in Resources */,
+				CEC55B451D0AB1E400E4E28E /* 撤销@2x.png in Resources */,
+				CEC55B401D0AB1E400E4E28E /* 关闭禁用@3x.png in Resources */,
+				CEC55B411D0AB1E400E4E28E /* 删除@2x.png in Resources */,
+				CEC55B181D0A717000E4E28E /* Assets.xcassets in Resources */,
+				CEC6A6DD1D0BAF030062C6DD /* 删除禁用@2x.png in Resources */,
+				CEC55B461D0AB1E400E4E28E /* 撤销@3x.png in Resources */,
+				CEC6A6E31D0BAF030062C6DD /* 重做@2x.png in Resources */,
+				CEC6A6DF1D0BAF030062C6DD /* 撤销@2x.png in Resources */,
+				CEC6A6DB1D0BAF030062C6DD /* 删除@2x.png in Resources */,
+				CEC6A6D81D0BAF030062C6DD /* 关闭@3x.png in Resources */,
+				CEC6A6E01D0BAF030062C6DD /* 撤销@3x.png in Resources */,
+				CEC6A6DA1D0BAF030062C6DD /* 关闭禁用@3x.png in Resources */,
+				CEC6A6E41D0BAF030062C6DD /* 重做@3x.png in Resources */,
+				CEC55B481D0AB1E400E4E28E /* 撤销禁用@3x.png in Resources */,
+				CEC6A6DE1D0BAF030062C6DD /* 删除禁用@3x.png in Resources */,
+				CEC6A6DC1D0BAF030062C6DD /* 删除@3x.png in Resources */,
+				CEC6A6E11D0BAF030062C6DD /* 撤销禁用@2x.png in Resources */,
+				CEC6A6D71D0BAF030062C6DD /* 关闭@2x.png in Resources */,
+				CEC55B3E1D0AB1E400E4E28E /* 关闭@3x.png in Resources */,
+				CEC55B421D0AB1E400E4E28E /* 删除@3x.png in Resources */,
+				CEC55B4B1D0AB1E400E4E28E /* 重做禁用@2x.png in Resources */,
+				CEC55B471D0AB1E400E4E28E /* 撤销禁用@2x.png in Resources */,
+				CEC6A6E21D0BAF030062C6DD /* 撤销禁用@3x.png in Resources */,
+				CEC6A6D91D0BAF030062C6DD /* 关闭禁用@2x.png in Resources */,
+				CEC55B3D1D0AB1E400E4E28E /* 关闭@2x.png in Resources */,
+				CEC55B161D0A717000E4E28E /* Main.storyboard in Resources */,
+				CEC6A6E51D0BAF030062C6DD /* 重做禁用@2x.png in Resources */,
+				CEC55B491D0AB1E400E4E28E /* 重做@2x.png in Resources */,
+				CEC55B4A1D0AB1E400E4E28E /* 重做@3x.png in Resources */,
+				CEC6A6E61D0BAF030062C6DD /* 重做禁用@3x.png in Resources */,
+				CEC55B441D0AB1E400E4E28E /* 删除禁用@3x.png in Resources */,
+				CEC55B3F1D0AB1E400E4E28E /* 关闭禁用@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC55B041D0A717000E4E28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC6A6C51D0BAED60062C6DD /* LGPaintPath.m in Sources */,
+				CEC55B131D0A717000E4E28E /* ViewController.m in Sources */,
+				CEC55B101D0A717000E4E28E /* AppDelegate.m in Sources */,
+				CEC6A6C21D0BAED60062C6DD /* LGBoardView.m in Sources */,
+				CEC55B0D1D0A717000E4E28E /* main.m in Sources */,
+				CEC6A6C31D0BAED60062C6DD /* LGColorSelectView.m in Sources */,
+				CEC6A6C41D0BAED60062C6DD /* LGDrawer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEC55B141D0A717000E4E28E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC55B151D0A717000E4E28E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC55B1D1D0A717000E4E28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEC55B1E1D0A717000E4E28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC55B201D0A717000E4E28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhou qianren (C9LR3LDBA9)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LGDrawBoard/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
+				INFOPLIST_FILE = LGDrawBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LGDrawBoard/UMSocial_Sdk_5.2.1",
+					"$(PROJECT_DIR)/LGDrawBoard/UMSocial_Sdk_Extra_Frameworks/AlipayShare",
+					"$(PROJECT_DIR)/LGDrawBoard/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
+					"$(PROJECT_DIR)/LGDrawBoard/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/LGDrawBoard/UMSocial_Sdk_Extra_Frameworks/Wechat",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.lg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e38d76ee-fb66-4ed9-9383-a081d1eb9069";
+			};
+			name = Debug;
+		};
+		CEC55B211D0A717000E4E28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhou qianren (C9LR3LDBA9)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LGDrawBoard/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
+				INFOPLIST_FILE = LGDrawBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LGDrawBoard/UMSocial_Sdk_5.2.1",
+					"$(PROJECT_DIR)/LGDrawBoard/UMSocial_Sdk_Extra_Frameworks/AlipayShare",
+					"$(PROJECT_DIR)/LGDrawBoard/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
+					"$(PROJECT_DIR)/LGDrawBoard/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/LGDrawBoard/UMSocial_Sdk_Extra_Frameworks/Wechat",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.lg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e38d76ee-fb66-4ed9-9383-a081d1eb9069";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC55B031D0A717000E4E28E /* Build configuration list for PBXProject "LGDrawBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC55B1D1D0A717000E4E28E /* Debug */,
+				CEC55B1E1D0A717000E4E28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC55B1F1D0A717000E4E28E /* Build configuration list for PBXNativeTarget "LGDrawBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC55B201D0A717000E4E28E /* Debug */,
+				CEC55B211D0A717000E4E28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC55B001D0A717000E4E28E /* Project object */;
+}
