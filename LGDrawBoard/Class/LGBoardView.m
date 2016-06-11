@@ -136,6 +136,8 @@
 	UIImage *viewImage = UIGraphicsGetImageFromCurrentImageContext();
 	UIGraphicsEndImageContext();
 	UIImageWriteToSavedPhotosAlbum(viewImage, nil, nil, nil);
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"保存成功" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+	[alert show];
 }
 
 - (void)album {
