@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [NSThread sleepForTimeInterval:1];
 	LGBoardView *boardView = [[LGBoardView alloc] initWithFrame:self.view.frame];
 	boardView.backgroundColor = [UIColor clearColor];
 	[self.view addSubview:boardView];
